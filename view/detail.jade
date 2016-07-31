@@ -1,0 +1,27 @@
+extends layout
+block content
+	div.container
+		div.h1 #{movieTitle}
+		
+			div.col-md-4
+				a(href="#{data.url}")
+					img(src="#{data.pic}")
+			div.col-md-8
+
+				span 导演：#{data.daoyan}
+					br
+				span 编剧：#{data.bianju}
+					br
+				span 主演：#{data.zhuyan}
+					br
+				span 类型：#{data.leixing}
+					br
+				span 官方网站：#{data.web}
+					br
+				span 语言：#{data.yuyan}
+					br
+				span 上映日期：#{data.time}
+					br
+				span 片长：#{data.pianchang}
+					br
+		

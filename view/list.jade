@@ -1,0 +1,12 @@
+extends layout
+block content
+	div.container
+		div.h1 大世界电影院
+		div.rows
+			- each item in movie
+				div.col-md-2
+					div.pic
+						a(href="#{item.url}")
+							img(src="#{item.urlImg}").img_responsive
+						h3 #{item.title}
+						a.btn.btn-primary 购买

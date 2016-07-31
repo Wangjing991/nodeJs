@@ -1,0 +1,22 @@
+doctype
+html
+	head
+		meta(charset="utf8")
+		link(rel="stylesheet",href="bootstrap/dist/css/bootstrap.min.css")
+		link(rel="stylesheet",href="css/index.css")
+	body
+		div.container
+			div.rows
+				div.col-md-8
+					h1 #{title}
+					hr
+					form(action="/list",method="POST")
+						label 用户名
+						input(type="text",name="username").form-control
+						label 密码
+						input(type="password",name="password").form-control
+						hr
+						input(type="submit").btn.btn-primary
+				div.col-md-4
+
+	script(type="text/javascript",src="bootstrap/dist/js/bootstrap.min.js")
