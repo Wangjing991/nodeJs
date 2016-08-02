@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "\"xiangmu\"",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jade": "^1.11.0",
+    "markdown": "^0.5.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangjing991/nodeJs.git"
+  },
+  "keywords": [
+    "wj"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wangjing991/nodeJs/issues"
+  },
+  "homepage": "https://github.com/Wangjing991/nodeJs#readme"
+}
